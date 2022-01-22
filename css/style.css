@@ -437,11 +437,11 @@ a {
 
 .content-top {
   flex: 1 1 48.7%;
-  padding-button: 63px;
+  padding-bottom: 63px;
 }
 @media (max-width: 1172px) {
   .content-top {
-    padding-button: calc(20px + 43 * ((100vw - 320px) / 852));
+    padding-bottom: calc(20px + 43 * ((100vw - 320px) / 852));
   }
 }
 .content-top__professional {
